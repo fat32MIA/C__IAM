@@ -1,0 +1,23 @@
+{
+  "visa_info": [
+    "Visas are permits granted by the U.S. government to enter the country. There are different types such as tourist (B1/B2), student (F1), work (H1B), among others. To apply for a visa, you typically need to complete the DS-160 form, pay a fee, and attend an interview at the consulate."
+  ],
+  "green_card": [
+    "The Green Card (Permanent Resident Card) allows a foreign national to live and work permanently in the United States. It can be obtained through family, employment, investment, or asylum, among other paths. The process typically begins with a petition (such as I-130 for family or I-140 for employment), followed by adjustment of status (I-485) or consular processing."
+  ],
+  "citizenship": [
+    "U.S. citizenship can be obtained by birth in the U.S., by having U.S. citizen parents, or through naturalization after being a permanent resident for at least 5 years (3 years if married to a U.S. citizen). To naturalize, you must complete form N-400, pass an interview, and an English and civics exam."
+  ],
+  "asylum": [
+    "Asylum is a protection available to people who have suffered persecution or fear persecution in their home country due to race, religion, nationality, political opinion, or membership in a particular social group. It can be requested within the U.S. (affirmative) or as a defense against deportation (defensive)."
+  ],
+  "daca": [
+    "DACA (Deferred Action for Childhood Arrivals) is a program that temporarily protects certain undocumented young people who came to the U.S. as children from deportation. It provides work authorization but no permanent legal status or path to citizenship."
+  ],
+  "tps": [
+    "Temporary Protected Status (TPS) is a program that allows nationals of designated countries to remain in the U.S. due to temporary dangerous conditions in their country, such as natural disasters or armed conflict. It provides protection from deportation and work authorization."
+  ],
+  "i-485": [
+    "Form I-485 is the Application to Register Permanent Residence or Adjust Status. It is used to apply for permanent residence (Green Card) while present in the United States. It typically requires an approved petition (such as I-130 or I-140) and an available visa according to the visa bulletin."
+  ]
+}

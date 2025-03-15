@@ -1,0 +1,29 @@
+{
+  "name": "PERM Certificación Laboral",
+  "description": "Solicitud de certificación laboral permanente (PERM)",
+  "questions": [
+                "Nombre del empleador",
+                "Dirección del empleador",
+                "Tipo de negocio",
+                "Persona de contacto",
+                "Número de teléfono",
+                "Correo electrónico",
+                "Título del puesto ofrecido",
+                "Deberes del puesto",
+                "Requisitos educativos",
+                "Experiencia requerida",
+                "Ubicación del trabajo",
+                "Salario ofrecido",
+                "Esfuerzos de reclutamiento realizados",
+                "Nombre del trabajador extranjero",
+                "Calificaciones del trabajador extranjero"
+            ],
+  "sections": {
+                "header": "SOLICITUD DE CERTIFICACIÓN LABORAL PERMANENTE (PERM)\nFORMULARIO ETA 9089",
+                "employer_info": "INFORMACIÓN DEL EMPLEADOR\n\nNombre: {{nombre_del_empleador}}\nDirección: {{dirección_del_empleador}}\nTipo de negocio: {{tipo_de_negocio}}\nContacto: {{persona_de_contacto}}\nTeléfono: {{número_de_teléfono}}\nEmail: {{correo_electrónico}}",
+                "job_info": "INFORMACIÓN DEL PUESTO\n\nTítulo: {{título_del_puesto_ofrecido}}\nDeberes: {{deberes_del_puesto}}\nRequisitos educativos: {{requisitos_educativos}}\nExperiencia requerida: {{experiencia_requerida}}\nUbicación: {{ubicación_del_trabajo}}\nSalario: {{salario_ofrecido}}",
+                "recruitment": "ESFUERZOS DE RECLUTAMIENTO\n\n{{esfuerzos_de_reclutamiento_realizados}}",
+                "worker_info": "INFORMACIÓN DEL TRABAJADOR EXTRANJERO\n\nNombre: {{nombre_del_trabajador_extranjero}}\nCalificaciones: {{calificaciones_del_trabajador_extranjero}}",
+                "declaration": "Certifico que la información proporcionada es verdadera y correcta. El empleador ha hecho esfuerzos de buena fe para reclutar trabajadores estadounidenses para la posición y no ha podido encontrar un trabajador estadounidense que esté igualmente o mejor calificado que el trabajador extranjero.\n\nFirma del Empleador: ____________________\nFecha: ____________"
+            }
+}

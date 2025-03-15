@@ -1,0 +1,27 @@
+{
+  "name": "I-485 Ajuste de Estatus Empleo",
+  "description": "Formulario I-485 para ajuste de estatus basado en empleo",
+  "questions": [
+                "Nombre completo del solicitante",
+                "Número A (si aplica)",
+                "Fecha de nacimiento",
+                "País de nacimiento",
+                "Dirección actual",
+                "Último ingreso a EE.UU. (fecha)",
+                "Estatus actual",
+                "Número de recibo de petición I-140",
+                "Nombre del empleador patrocinador",
+                "Categoría de preferencia de empleo",
+                "Fecha de prioridad",
+                "Estado civil",
+                "Información de empleo actual",
+                "¿Ha sido arrestado alguna vez?"
+            ],
+  "sections": {
+                "header": "SOLICITUD DE REGISTRO DE RESIDENCIA PERMANENTE\nFORMULARIO I-485 (EMPLEO)",
+                "personal_info": "INFORMACIÓN PERSONAL\n\nNombre: {{nombre_completo_del_solicitante}}\nNúmero A: {{número_a}}\nFecha de Nacimiento: {{fecha_de_nacimiento}}\nPaís de Nacimiento: {{país_de_nacimiento}}\nDirección: {{dirección_actual}}\nEstado Civil: {{estado_civil}}",
+                "immigration_info": "INFORMACIÓN MIGRATORIA\n\nÚltimo ingreso a EE.UU.: {{último_ingreso_a_ee.uu.}}\nEstatus actual: {{estatus_actual}}\nNúmero de recibo I-140: {{número_de_recibo_de_petición_i140}}\nEmpleador: {{nombre_del_empleador_patrocinador}}\nCategoría: {{categoría_de_preferencia_de_empleo}}\nFecha de prioridad: {{fecha_de_prioridad}}",
+                "additional_info": "INFORMACIÓN ADICIONAL\n\nEmpleo actual: {{información_de_empleo_actual}}\nArrestos previos: {{¿ha_sido_arrestado_alguna_vez?}}",
+                "declaration": "Declaro bajo pena de perjurio que la información proporcionada es verdadera y correcta según mi conocimiento.\n\nFirma del Solicitante: ____________________\nFecha: ____________"
+            }
+}

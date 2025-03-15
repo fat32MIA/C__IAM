@@ -1,0 +1,28 @@
+{
+  "name": "I-601 Exención por Antecedentes Penales",
+  "description": "Solicitud de exención por motivos de inadmisibilidad penal",
+  "questions": [
+                "Nombre completo del solicitante",
+                "Número A (si aplica)",
+                "Fecha de nacimiento",
+                "País de nacimiento",
+                "Dirección actual",
+                "Bases de inadmisibilidad",
+                "Descripción de los delitos/condenas",
+                "Fechas de los delitos/condenas",
+                "Familiares ciudadanos o residentes permanentes",
+                "Relación con cada familiar",
+                "Dificultades extremas que enfrentarían",
+                "Evidencia de rehabilitación",
+                "Tiempo en EE.UU.",
+                "Contribuciones a la comunidad"
+            ],
+  "sections": {
+                "header": "SOLICITUD DE EXENCIÓN DE INADMISIBILIDAD\nFORMULARIO I-601 (ANTECEDENTES PENALES)",
+                "personal_info": "INFORMACIÓN PERSONAL\n\nNombre: {{nombre_completo_del_solicitante}}\nNúmero A: {{número_a}}\nFecha de Nacimiento: {{fecha_de_nacimiento}}\nPaís de Nacimiento: {{país_de_nacimiento}}\nDirección: {{dirección_actual}}",
+                "inadmissibility_grounds": "BASES DE INADMISIBILIDAD\n\n{{bases_de_inadmisibilidad}}\n\nDescripción de delitos: {{descripción_de_los_delitos/condenas}}\nFechas: {{fechas_de_los_delitos/condenas}}",
+                "hardship_info": "DIFICULTADES EXTREMAS\n\nFamiliares calificados: {{familiares_ciudadanos_o_residentes_permanentes}}\nRelación: {{relación_con_cada_familiar}}\nDificultades: {{dificultades_extremas_que_enfrentarían}}",
+                "rehabilitation": "REHABILITACIÓN Y FACTORES POSITIVOS\n\nEvidencia de rehabilitación: {{evidencia_de_rehabilitación}}\nTiempo en EE.UU.: {{tiempo_en_ee.uu.}}\nContribuciones a la comunidad: {{contribuciones_a_la_comunidad}}",
+                "conclusion": "Por las razones anteriores, solicito respetuosamente que se apruebe esta solicitud de exención.\n\nFirma del Solicitante: ____________________\nFecha: ____________"
+            }
+}

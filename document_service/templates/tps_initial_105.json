@@ -1,0 +1,27 @@
+{
+  "name": "TPS Solicitud Inicial",
+  "description": "Solicitud inicial de Estatus de Protección Temporal",
+  "questions": [
+                "Nombre completo del solicitante",
+                "Número A (si aplica)",
+                "Fecha de nacimiento",
+                "País de nacimiento",
+                "Nacionalidad",
+                "Dirección actual",
+                "Fecha de entrada a EE.UU.",
+                "Estatus al entrar",
+                "País designado para TPS",
+                "Evidencia de nacionalidad",
+                "Evidencia de presencia física",
+                "Evidencia de residencia continua",
+                "¿Ha sido condenado por algún delito?"
+            ],
+  "sections": {
+                "header": "SOLICITUD DE ESTATUS DE PROTECCIÓN TEMPORAL (TPS)\nFORMULARIO I-821",
+                "personal_info": "INFORMACIÓN PERSONAL\n\nNombre: {{nombre_completo_del_solicitante}}\nNúmero A: {{número_a}}\nFecha de Nacimiento: {{fecha_de_nacimiento}}\nPaís de Nacimiento: {{país_de_nacimiento}}\nNacionalidad: {{nacionalidad}}\nDirección: {{dirección_actual}}",
+                "immigration_info": "INFORMACIÓN MIGRATORIA\n\nFecha de entrada: {{fecha_de_entrada_a_ee.uu.}}\nEstatus al entrar: {{estatus_al_entrar}}\nPaís designado para TPS: {{país_designado_para_tps}}",
+                "eligibility_evidence": "EVIDENCIA DE ELEGIBILIDAD\n\nNacionalidad: {{evidencia_de_nacionalidad}}\nPresencia física: {{evidencia_de_presencia_física}}\nResidencia continua: {{evidencia_de_residencia_continua}}",
+                "criminal_history": "HISTORIAL PENAL\n\nCondenas: {{¿ha_sido_condenado_por_algún_delito?}}",
+                "declaration": "Declaro bajo pena de perjurio que la información proporcionada es verdadera y correcta según mi conocimiento.\n\nFirma del Solicitante: ____________________\nFecha: ____________"
+            }
+}

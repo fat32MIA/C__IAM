@@ -1,0 +1,28 @@
+{
+  "name": "U Visa Solicitud",
+  "description": "Solicitud de visa U para víctimas de delitos",
+  "questions": [
+                "Nombre completo del solicitante",
+                "Número A (si aplica)",
+                "Fecha de nacimiento",
+                "País de nacimiento",
+                "Dirección actual",
+                "Tipo de delito del que fue víctima",
+                "Fecha del delito",
+                "Lugar del delito",
+                "Agencia policial donde se reportó",
+                "Número de reporte policial",
+                "Descripción del daño físico o mental sufrido",
+                "Asistencia proporcionada a las autoridades",
+                "Familiares que desea incluir como derivados"
+            ],
+  "sections": {
+                "header": "SOLICITUD DE ESTATUS DE NO INMIGRANTE U\nFORMULARIO I-918",
+                "personal_info": "INFORMACIÓN PERSONAL\n\nNombre: {{nombre_completo_del_solicitante}}\nNúmero A: {{número_a}}\nFecha de Nacimiento: {{fecha_de_nacimiento}}\nPaís de Nacimiento: {{país_de_nacimiento}}\nDirección: {{dirección_actual}}",
+                "criminal_activity": "ACTIVIDAD CRIMINAL CALIFICADA\n\nTipo de delito: {{tipo_de_delito_del_que_fue_víctima}}\nFecha: {{fecha_del_delito}}\nLugar: {{lugar_del_delito}}\nAgencia policial: {{agencia_policial_donde_se_reportó}}\nNúmero de reporte: {{número_de_reporte_policial}}",
+                "harm_suffered": "DAÑO SUFRIDO\n\n{{descripción_del_daño_físico_o_mental_sufrido}}",
+                "law_enforcement": "ASISTENCIA A LAS AUTORIDADES\n\n{{asistencia_proporcionada_a_las_autoridades}}",
+                "derivatives": "BENEFICIARIOS DERIVADOS\n\n{{familiares_que_desea_incluir_como_derivados}}",
+                "declaration": "Declaro bajo pena de perjurio que la información proporcionada es verdadera y correcta según mi conocimiento.\n\nFirma del Solicitante: ____________________\nFecha: ____________"
+            }
+}

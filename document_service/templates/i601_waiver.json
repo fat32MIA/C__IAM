@@ -1,0 +1,52 @@
+# document_service/templates/i601_waiver.json
+cat > document_service/templates/i601_waiver.json << 'EOF'
+{
+  "name": "I-601 Waiver Brief",
+  "description": "Plantilla para preparar un escrito de exención I-601",
+  "questions": [
+    "Nombre completo del solicitante",
+    "Número de caso",
+    "País de origen",
+    "Motivo de inadmisibilidad",
+    "Familiares ciudadanos o residentes permanentes",
+    "Dificultades extremas que enfrentaría la familia",
+    "Historial de empleo en EE.UU.",
+    "Contribuciones a la comunidad",
+    "Lazos familiares en EE.UU."
+  ],
+  "sections": {
+    "header": "SOLICITUD DE EXENCIÓN I-601\nEXPEDIENTE: {{numero_caso}}\nSOLICITANTE: {{nombre_completo}}",
+    "introduction": "Esta solicitud de exención I-601 se presenta en nombre de {{nombre_completo}}, ciudadano de {{pais_origen}}, quien busca una exención por {{motivo_inadmisibilidad}}.",
+    "family_hardship": "La deportación del solicitante causaría dificultades extremas a {{familiares_ciudadanos}}, incluyendo: {{dificultades_extremas}}",
+    "contributions": "Durante su estancia en Estados Unidos, el solicitante ha contribuido positivamente a la sociedad mediante: {{historial_empleo}} y {{contribuciones_comunidad}}",
+    "conclusion": "Por las razones expuestas anteriormente, respetuosamente solicitamos que se apruebe esta solicitud de exención I-601."
+  }
+}
+EOF
+
+# document_service/templates/i485_cover.json
+cat > document_service/templates/i485_cover.json << 'EOF'
+{
+  "name": "I-485 Cover Letter",
+  "description": "Carta de presentación para Ajuste de Estatus (I-485)",
+  "questions": [
+    "Nombre completo del solicitante",
+    "Número de extranjero (A-Number)",
+    "Fecha de nacimiento",
+    "Categoría de visado",
+    "Beneficiario de petición I-130/I-140",
+    "Fecha de prioridad",
+    "Dirección actual",
+    "Número de teléfono",
+    "Correo electrónico"
+  ],
+  "sections": {
+    "header": "CARTA DE PRESENTACIÓN\nFORMULARIO I-485, SOLICITUD DE AJUSTE DE ESTATUS",
+    "recipient": "USCIS\nP.O. Box 805887\nChicago, IL 60680-4120",
+    "reference": "RE: Solicitud de Ajuste de Estatus para {{nombre_completo}}\nA-Number: {{a_number}}",
+    "introduction": "Adjunto encontrará la solicitud de {{nombre_completo}}, nacido el {{fecha_nacimiento}}, para ajustar su estatus a Residente Permanente Legal bajo la categoría {{categoria_visado}}.",
+    "documents": "La solicitud incluye los siguientes documentos:\n1. Formulario I-485 completado y firmado\n2. Dos fotografías tamaño pasaporte\n3. Copia del pasaporte\n4. Copia del I-94\n5. Evidencia médica (Formulario I-693 en sobre sellado)\n6. Evidencia de manutención financiera (I-864)\n7. Cheque por la cantidad de la cuota",
+    "closing": "Si necesita información adicional, no dude en contactarme en {{telefono}} o {{email}}.\n\nAtentamente,\n\n{{nombre_completo}}\n{{direccion_actual}}"
+  }
+}
+EOF

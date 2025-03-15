@@ -1,0 +1,23 @@
+{
+  "visa_info": [
+    "Las visas son permisos otorgados por el gobierno de EE.UU. para entrar al país. Existen diferentes tipos como turista (B1/B2), estudiante (F1), trabajo (H1B), entre otras. Para solicitar una visa, normalmente debe completar el formulario DS-160, pagar una cuota y asistir a una entrevista en el consulado."
+  ],
+  "green_card": [
+    "La Green Card (Tarjeta de Residencia Permanente) permite a un extranjero vivir y trabajar permanentemente en Estados Unidos. Se puede obtener por familia, empleo, inversión, o asilo, entre otros caminos. El proceso normalmente comienza con una petición (como el I-130 para familiares o I-140 para empleo), seguido por el ajuste de estatus (I-485) o proceso consular."
+  ],
+  "citizenship": [
+    "La ciudadanía estadounidense puede obtenerse por nacimiento en EE.UU., por tener padres estadounidenses, o por naturalización después de ser residente permanente durante al menos 5 años (3 años si está casado con un ciudadano estadounidense). Para naturalizarse, debe completar el formulario N-400, pasar una entrevista y un examen de inglés y educación cívica."
+  ],
+  "asylum": [
+    "El asilo es una protección disponible para personas que han sufrido persecución o temen persecución en su país de origen debido a su raza, religión, nacionalidad, opinión política o pertenencia a determinado grupo social. Puede solicitarse dentro de EE.UU. (afirmativo) o como defensa contra la deportación (defensivo)."
+  ],
+  "daca": [
+    "DACA (Acción Diferida para los Llegados en la Infancia) es un programa que protege temporalmente de la deportación a ciertos jóvenes indocumentados que llegaron a EE.UU. como niños. Proporciona autorización de trabajo pero no estatus legal permanente ni camino a la ciudadanía."
+  ],
+  "tps": [
+    "El Estatus de Protección Temporal (TPS) es un programa que permite a nacionales de países designados permanecer en EE.UU. debido a condiciones temporales peligrosas en su país, como desastres naturales o conflictos armados. Proporciona protección contra la deportación y autorización de trabajo."
+  ],
+  "i-485": [
+    "El formulario I-485 es la Solicitud de Registro de Residencia Permanente o Ajuste de Estatus. Se utiliza para solicitar la residencia permanente (Green Card) mientras está presente en los Estados Unidos. Generalmente, requiere una petición aprobada (como I-130 o I-140) y una visa disponible según el boletín de visas."
+  ]
+}

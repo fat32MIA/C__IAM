@@ -1,0 +1,32 @@
+{
+  "name": "I-601 Exención por Presencia Ilegal",
+  "description": "Solicitud de exención por motivos de presencia ilegal (3/10 años)",
+  "questions": [
+                "Nombre completo del solicitante",
+                "Número A (si aplica)",
+                "Fecha de nacimiento",
+                "País de nacimiento",
+                "Dirección actual",
+                "Período de presencia ilegal",
+                "Fecha de salida de EE.UU.",
+                "Familiar ciudadano o residente permanente",
+                "Relación con el familiar",
+                "Dificultades médicas que enfrentaría el familiar",
+                "Dificultades financieras que enfrentaría el familiar",
+                "Dificultades emocionales que enfrentaría el familiar",
+                "Condiciones en el país de origen",
+                "Lazos familiares en EE.UU."
+            ],
+  "sections": {
+                "header": "SOLICITUD DE EXENCIÓN DE INADMISIBILIDAD\nFORMULARIO I-601 (PRESENCIA ILEGAL)",
+                "personal_info": "INFORMACIÓN PERSONAL\n\nNombre: {{nombre_completo_del_solicitante}}\nNúmero A: {{número_a}}\nFecha de Nacimiento: {{fecha_de_nacimiento}}\nPaís de Nacimiento: {{país_de_nacimiento}}\nDirección: {{dirección_actual}}",
+                "inadmissibility_grounds": "BASES DE INADMISIBILIDAD\n\nPeríodo de presencia ilegal: {{período_de_presencia_ilegal}}\nFecha de salida: {{fecha_de_salida_de_ee.uu.}}",
+                "qualifying_relative": "FAMILIAR CALIFICADO\n\nFamiliar: {{familiar_ciudadano_o_residente_permanente}}\nRelación: {{relación_con_el_familiar}}",
+                "medical_hardship": "DIFICULTADES MÉDICAS\n\n{{dificultades_médicas_que_enfrentaría_el_familiar}}",
+                "financial_hardship": "DIFICULTADES FINANCIERAS\n\n{{dificultades_financieras_que_enfrentaría_el_familiar}}",
+                "emotional_hardship": "DIFICULTADES EMOCIONALES\n\n{{dificultades_emocionales_que_enfrentaría_el_familiar}}",
+                "country_conditions": "CONDICIONES EN EL PAÍS DE ORIGEN\n\n{{condiciones_en_el_país_de_origen}}",
+                "family_ties": "LAZOS FAMILIARES EN EE.UU.\n\n{{lazos_familiares_en_ee.uu.}}",
+                "conclusion": "Por las razones anteriores, solicito respetuosamente que se apruebe esta solicitud de exención.\n\nFirma del Solicitante: ____________________\nFecha: ____________"
+            }
+}

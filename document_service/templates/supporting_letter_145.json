@@ -1,0 +1,27 @@
+{
+  "name": "Carta de Apoyo",
+  "description": "Carta de apoyo de familiar, amigo o empleador",
+  "questions": [
+                "Nombre del remitente",
+                "Dirección del remitente",
+                "Relación con el solicitante",
+                "Tiempo que conoce al solicitante",
+                "Nombre del solicitante",
+                "Carácter moral del solicitante",
+                "Contribuciones a la familia/comunidad",
+                "Circunstancias específicas a destacar",
+                "Impacto de la deportación/denegación",
+                "Estatus migratorio del remitente",
+                "Ocupación del remitente"
+            ],
+  "sections": {
+                "header": "CARTA DE APOYO",
+                "date_address": "Fecha: [FECHA]\n\nA quien corresponda:",
+                "introduction": "Mi nombre es {{nombre_del_remitente}} y soy {{relación_con_el_solicitante}} de {{nombre_del_solicitante}}. Soy {{estatus_migratorio_del_remitente}} y trabajo como {{ocupación_del_remitente}}. Conozco a {{nombre_del_solicitante}} desde hace {{tiempo_que_conoce_al_solicitante}}.",
+                "character": "CARÁCTER MORAL\n\n{{carácter_moral_del_solicitante}}",
+                "contributions": "CONTRIBUCIONES\n\n{{contribuciones_a_la_familia/comunidad}}",
+                "circumstances": "CIRCUNSTANCIAS ESPECÍFICAS\n\n{{circunstancias_específicas_a_destacar}}",
+                "impact": "IMPACTO\n\n{{impacto_de_la_deportación/denegación}}",
+                "closing": "Por las razones mencionadas, le solicito respetuosamente que considere favorablemente el caso de {{nombre_del_solicitante}}.\n\nAtentamente,\n\n{{nombre_del_remitente}}\n{{dirección_del_remitente}}"
+            }
+}

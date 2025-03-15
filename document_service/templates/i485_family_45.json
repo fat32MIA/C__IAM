@@ -1,0 +1,26 @@
+{
+  "name": "I-485 Ajuste de Estatus Familiar",
+  "description": "Formulario I-485 para ajuste de estatus basado en petición familiar",
+  "questions": [
+                "Nombre completo del solicitante",
+                "Número A (si aplica)",
+                "Fecha de nacimiento",
+                "País de nacimiento",
+                "Dirección actual",
+                "Último ingreso a EE.UU. (fecha)",
+                "Estatus actual",
+                "Número de recibo de petición I-130",
+                "Nombre del peticionario",
+                "Relación con el peticionario",
+                "Estado civil",
+                "Información de empleo actual",
+                "¿Ha sido arrestado alguna vez?"
+            ],
+  "sections": {
+                "header": "SOLICITUD DE REGISTRO DE RESIDENCIA PERMANENTE\nFORMULARIO I-485 (FAMILIAR)",
+                "personal_info": "INFORMACIÓN PERSONAL\n\nNombre: {{nombre_completo_del_solicitante}}\nNúmero A: {{número_a}}\nFecha de Nacimiento: {{fecha_de_nacimiento}}\nPaís de Nacimiento: {{país_de_nacimiento}}\nDirección: {{dirección_actual}}\nEstado Civil: {{estado_civil}}",
+                "immigration_info": "INFORMACIÓN MIGRATORIA\n\nÚltimo ingreso a EE.UU.: {{último_ingreso_a_ee.uu.}}\nEstatus actual: {{estatus_actual}}\nNúmero de recibo I-130: {{número_de_recibo_de_petición_i130}}\nPeticionario: {{nombre_del_peticionario}}\nRelación: {{relación_con_el_peticionario}}",
+                "additional_info": "INFORMACIÓN ADICIONAL\n\nEmpleo actual: {{información_de_empleo_actual}}\nArrestos previos: {{¿ha_sido_arrestado_alguna_vez?}}",
+                "declaration": "Declaro bajo pena de perjurio que la información proporcionada es verdadera y correcta según mi conocimiento.\n\nFirma del Solicitante: ____________________\nFecha: ____________"
+            }
+}

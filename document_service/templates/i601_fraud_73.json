@@ -1,0 +1,27 @@
+{
+  "name": "I-601 Exención por Fraude/Tergiversación",
+  "description": "Solicitud de exención por motivos de inadmisibilidad por fraude o tergiversación",
+  "questions": [
+                "Nombre completo del solicitante",
+                "Número A (si aplica)",
+                "Fecha de nacimiento",
+                "País de nacimiento",
+                "Dirección actual",
+                "Descripción del fraude o tergiversación",
+                "Fecha del fraude o tergiversación",
+                "Familiares ciudadanos o residentes permanentes",
+                "Relación con cada familiar",
+                "Dificultades extremas que enfrentarían",
+                "Circunstancias atenuantes",
+                "Tiempo en EE.UU.",
+                "Contribuciones a la comunidad"
+            ],
+  "sections": {
+                "header": "SOLICITUD DE EXENCIÓN DE INADMISIBILIDAD\nFORMULARIO I-601 (FRAUDE/TERGIVERSACIÓN)",
+                "personal_info": "INFORMACIÓN PERSONAL\n\nNombre: {{nombre_completo_del_solicitante}}\nNúmero A: {{número_a}}\nFecha de Nacimiento: {{fecha_de_nacimiento}}\nPaís de Nacimiento: {{país_de_nacimiento}}\nDirección: {{dirección_actual}}",
+                "inadmissibility_grounds": "BASES DE INADMISIBILIDAD\n\nDescripción del fraude: {{descripción_del_fraude_o_tergiversación}}\nFecha: {{fecha_del_fraude_o_tergiversación}}",
+                "hardship_info": "DIFICULTADES EXTREMAS\n\nFamiliares calificados: {{familiares_ciudadanos_o_residentes_permanentes}}\nRelación: {{relación_con_cada_familiar}}\nDificultades: {{dificultades_extremas_que_enfrentarían}}",
+                "mitigating_factors": "CIRCUNSTANCIAS ATENUANTES Y FACTORES POSITIVOS\n\nCircunstancias atenuantes: {{circunstancias_atenuantes}}\nTiempo en EE.UU.: {{tiempo_en_ee.uu.}}\nContribuciones a la comunidad: {{contribuciones_a_la_comunidad}}",
+                "conclusion": "Por las razones anteriores, solicito respetuosamente que se apruebe esta solicitud de exención.\n\nFirma del Solicitante: ____________________\nFecha: ____________"
+            }
+}

@@ -1,0 +1,44 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 4444,
+    "threads": 4,
+    "timeout_ms": 30000
+  },
+  "database": {
+    "path": "data/iam_database.db"
+  },
+  "auth": {
+    "jwt_secret": "iam_secret_key_change_in_production",
+    "token_expiry_hours": 24,
+    "api_key_prefix": "iam_"
+  },
+  "ia_migrante": {
+    "knowledge_base_path": "share/ia_migrante/data",
+    "cache_ttl_hours": 72,
+    "confidence_threshold": 0.7,
+    "max_cache_entries": 10000
+  },
+  "openai_bridge": {
+    "url": "http://localhost:5000",
+    "timeout_ms": 15000,
+    "retry_attempts": 3
+  },
+  "ocr_service": {
+    "models_path": "share/ia_migrante/ocr_models",
+    "supported_formats": ["pdf", "jpg", "png", "tiff"],
+    "max_file_size_mb": 10
+  },
+  "tts_service": {
+    "voices_path": "share/ia_migrante/tts_voices",
+    "cache_path": "data/tts_cache",
+    "default_voice": "es_female_clara"
+  },
+  "learning": {
+    "enabled": true,
+    "min_feedback_count": 5,
+    "learning_rate": 0.01,
+    "update_interval_hours": 24,
+    "confidence_threshold": 0.8
+  }
+}

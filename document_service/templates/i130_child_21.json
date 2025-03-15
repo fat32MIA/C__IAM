@@ -1,0 +1,24 @@
+{
+  "name": "I-130 Petición para Hijo/a",
+  "description": "Formulario I-130 para petición de hijo/a",
+  "questions": [
+                "Nombre completo del peticionario",
+                "Número de seguro social del peticionario",
+                "Dirección del peticionario",
+                "Fecha de nacimiento del peticionario",
+                "Lugar de nacimiento del peticionario",
+                "Nombre completo del hijo/a beneficiario",
+                "Fecha de nacimiento del hijo/a",
+                "País de nacimiento del hijo/a",
+                "Relación con el hijo/a (biológico, adoptado, hijastro)",
+                "¿Vive actualmente el hijo/a con el peticionario?",
+                "Dirección actual del hijo/a (si es diferente)",
+                "Número A del hijo/a (si aplica)"
+            ],
+  "sections": {
+                "header": "PETICIÓN PARA FAMILIAR EXTRANJERO\nFORMULARIO I-130 (HIJO/A)",
+                "petitioner_info": "INFORMACIÓN DEL PETICIONARIO\n\nNombre: {{nombre_completo_del_peticionario}}\nSSN: {{número_de_seguro_social_del_peticionario}}\nFecha de Nacimiento: {{fecha_de_nacimiento_del_peticionario}}\nLugar de Nacimiento: {{lugar_de_nacimiento_del_peticionario}}\nDirección: {{dirección_del_peticionario}}",
+                "beneficiary_info": "INFORMACIÓN DEL HIJO/A BENEFICIARIO\n\nNombre: {{nombre_completo_del_hijo/a_beneficiario}}\nFecha de Nacimiento: {{fecha_de_nacimiento_del_hijo/a}}\nPaís de Nacimiento: {{país_de_nacimiento_del_hijo/a}}\nRelación: {{relación_con_el_hijo/a}}\nVive con peticionario: {{¿vive_actualmente_el_hijo/a_con_el_peticionario?}}\nDirección (si diferente): {{dirección_actual_del_hijo/a}}\nNúmero A (si aplica): {{número_a_del_hijo/a}}",
+                "declaration": "Declaro bajo pena de perjurio que la información proporcionada es verdadera y correcta según mi conocimiento.\n\nFirma del Peticionario: ____________________\nFecha: ____________"
+            }
+}

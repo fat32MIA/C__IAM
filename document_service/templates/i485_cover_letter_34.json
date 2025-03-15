@@ -1,0 +1,22 @@
+{
+  "name": "I-485 Carta de Presentación",
+  "description": "Carta de presentación para paquete de I-485",
+  "questions": [
+                "Nombre completo del solicitante",
+                "Número A (si aplica)",
+                "Categoría de ajuste (familiar, empleo, etc.)",
+                "Número de recibo de petición subyacente",
+                "Fecha de prioridad (si aplica)",
+                "Lista de documentos incluidos",
+                "Dirección de correspondencia",
+                "Número de teléfono de contacto",
+                "Correo electrónico"
+            ],
+  "sections": {
+                "header": "CARTA DE PRESENTACIÓN\nSOLICITUD DE AJUSTE DE ESTATUS (I-485)",
+                "addressed_to": "U.S. Citizenship and Immigration Services\nP.O. Box 805887\nChicago, IL 60680-4120",
+                "intro": "RE: Solicitud de Ajuste de Estatus para {{nombre_completo_del_solicitante}}\nNúmero A: {{número_a}}\nCategoría: {{categoría_de_ajuste}}\nRecibo de petición: {{número_de_recibo_de_petición_subyacente}}\nFecha de prioridad: {{fecha_de_prioridad}}",
+                "body": "Estimado Oficial:\n\nAdjunto encontrará la Solicitud de Ajuste de Estatus (Formulario I-485) para {{nombre_completo_del_solicitante}}. Los siguientes documentos están incluidos en este paquete:\n\n{{lista_de_documentos_incluidos}}\n\nSi necesita información adicional o tiene alguna pregunta, no dude en contactarme.",
+                "contact_info": "Atentamente,\n\n{{nombre_completo_del_solicitante}}\n{{dirección_de_correspondencia}}\nTeléfono: {{número_de_teléfono_de_contacto}}\nEmail: {{correo_electrónico}}"
+            }
+}

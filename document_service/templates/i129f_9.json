@@ -1,0 +1,26 @@
+{
+  "name": "I-129F Petición para Prometido/a",
+  "description": "Formulario I-129F para petición de visa K-1 (prometido/a)",
+  "questions": [
+                "Nombre completo del peticionario ciudadano",
+                "Número de seguro social del peticionario",
+                "Dirección del peticionario",
+                "Fecha de nacimiento del peticionario",
+                "Lugar de nacimiento del peticionario",
+                "Nombre completo del prometido/a beneficiario",
+                "Fecha de nacimiento del prometido/a",
+                "País de nacimiento del prometido/a",
+                "Dirección actual del prometido/a",
+                "¿Cómo se conocieron?",
+                "Fecha del primer encuentro en persona",
+                "Planes de matrimonio (fecha y lugar)",
+                "Número A del prometido/a (si aplica)"
+            ],
+  "sections": {
+                "header": "PETICIÓN PARA PROMETIDO/A EXTRANJERO\nFORMULARIO I-129F",
+                "petitioner_info": "INFORMACIÓN DEL PETICIONARIO\n\nNombre: {{nombre_completo_del_peticionario_ciudadano}}\nSSN: {{número_de_seguro_social_del_peticionario}}\nFecha de Nacimiento: {{fecha_de_nacimiento_del_peticionario}}\nLugar de Nacimiento: {{lugar_de_nacimiento_del_peticionario}}\nDirección: {{dirección_del_peticionario}}",
+                "beneficiary_info": "INFORMACIÓN DEL PROMETIDO/A BENEFICIARIO\n\nNombre: {{nombre_completo_del_prometido/a_beneficiario}}\nFecha de Nacimiento: {{fecha_de_nacimiento_del_prometido/a}}\nPaís de Nacimiento: {{país_de_nacimiento_del_prometido/a}}\nDirección Actual: {{dirección_actual_del_prometido/a}}\nNúmero A (si aplica): {{número_a_del_prometido/a}}",
+                "relationship_info": "INFORMACIÓN DE LA RELACIÓN\n\nCómo se conocieron: {{¿cómo_se_conocieron?}}\nFecha del primer encuentro en persona: {{fecha_del_primer_encuentro_en_persona}}\nPlanes de matrimonio: {{planes_de_matrimonio}}",
+                "declaration": "Declaro bajo pena de perjurio que la información proporcionada es verdadera y correcta según mi conocimiento.\n\nFirma del Peticionario: ____________________\nFecha: ____________"
+            }
+}

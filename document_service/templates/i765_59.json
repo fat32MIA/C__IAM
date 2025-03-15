@@ -1,0 +1,24 @@
+{
+  "name": "I-765 Autorización de Empleo",
+  "description": "Solicitud de autorización de empleo",
+  "questions": [
+        "Nombre completo del solicitante",
+        "Número A (si aplica)",
+        "Fecha de nacimiento",
+        "País de nacimiento",
+        "Dirección actual",
+        "Género",
+        "Estado civil",
+        "Categoría de elegibilidad (ej. (c)(9), (c)(8))",
+        "Base de solicitud (I-485 pendiente, asilo, etc.)",
+        "Número de Seguro Social (si tiene)",
+        "¿Es esta su primera solicitud de EAD?",
+        "Fecha de vencimiento del último EAD (si aplica)"
+    ],
+  "sections": {
+        "header": "SOLICITUD DE AUTORIZACIÓN DE EMPLEO\nFORMULARIO I-765",
+        "personal_info": "INFORMACIÓN PERSONAL\n\nNombre: {{nombre_completo_del_solicitante}}\nNúmero A: {{número_a}}\nFecha de Nacimiento: {{fecha_de_nacimiento}}\nPaís de Nacimiento: {{país_de_nacimiento}}\nDirección: {{dirección_actual}}\nGénero: {{género}}\nEstado Civil: {{estado_civil}}\nSSN: {{número_de_seguro_social}}",
+        "eligibility_info": "INFORMACIÓN DE ELEGIBILIDAD\n\nCategoría: {{categoría_de_elegibilidad}}\nBase de solicitud: {{base_de_solicitud}}\nPrimera solicitud: {{¿es_esta_su_primera_solicitud_de_ead?}}\nFecha de vencimiento del último EAD: {{fecha_de_vencimiento_del_último_ead}}",
+        "declaration": "Declaro bajo pena de perjurio que la información proporcionada es verdadera y correcta según mi conocimiento.\n\nFirma del Solicitante: ____________________\nFecha: ____________"
+    }
+}

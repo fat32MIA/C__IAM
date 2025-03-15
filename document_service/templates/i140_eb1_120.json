@@ -1,0 +1,28 @@
+{
+  "name": "I-140 Petición EB-1",
+  "description": "Petición de inmigrante para trabajador prioritario (EB-1)",
+  "questions": [
+                "Nombre completo del beneficiario",
+                "Fecha de nacimiento",
+                "País de nacimiento",
+                "País de nacionalidad",
+                "Dirección actual",
+                "Subcategoría EB-1 (habilidad extraordinaria, profesor/investigador, multinacional)",
+                "Posición actual",
+                "Credenciales académicas",
+                "Principales logros profesionales",
+                "Reconocimientos o premios",
+                "Membresías profesionales",
+                "Publicaciones",
+                "Cartas de recomendación disponibles",
+                "Evidencia de salario superior al promedio"
+            ],
+  "sections": {
+                "header": "PETICIÓN DE INMIGRANTE PARA TRABAJADOR PRIORITARIO (EB-1)\nFORMULARIO I-140",
+                "beneficiary_info": "INFORMACIÓN DEL BENEFICIARIO\n\nNombre: {{nombre_completo_del_beneficiario}}\nFecha de Nacimiento: {{fecha_de_nacimiento}}\nPaís de Nacimiento: {{país_de_nacimiento}}\nNacionalidad: {{país_de_nacionalidad}}\nDirección: {{dirección_actual}}",
+                "eb1_category": "CATEGORÍA EB-1\n\nSubcategoría: {{subcategoría_eb1}}\nPosición actual: {{posición_actual}}",
+                "qualifications": "CALIFICACIONES\n\nCredenciales académicas: {{credenciales_académicas}}\nLogros profesionales: {{principales_logros_profesionales}}\nReconocimientos/Premios: {{reconocimientos_o_premios}}\nMembresías: {{membresías_profesionales}}",
+                "evidence": "EVIDENCIA\n\nPublicaciones: {{publicaciones}}\nCartas de recomendación: {{cartas_de_recomendación_disponibles}}\nSalario superior: {{evidencia_de_salario_superior_al_promedio}}",
+                "conclusion": "Con base en las calificaciones y evidencias presentadas, se solicita la aprobación de esta petición EB-1.\n\nFirma: ____________________\nFecha: ____________"
+            }
+}

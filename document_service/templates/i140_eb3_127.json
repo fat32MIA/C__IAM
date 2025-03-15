@@ -1,0 +1,29 @@
+{
+  "name": "I-140 Petición EB-3",
+  "description": "Petición de inmigrante para trabajador profesional, calificado o no calificado (EB-3)",
+  "questions": [
+                "Nombre completo del beneficiario",
+                "Fecha de nacimiento",
+                "País de nacimiento",
+                "País de nacionalidad",
+                "Dirección actual",
+                "Subcategoría EB-3 (profesional, trabajador calificado, otro)",
+                "Posición ofrecida",
+                "Nombre del empleador peticionario",
+                "Dirección del empleador",
+                "Calificaciones requeridas para el puesto",
+                "Calificaciones del beneficiario",
+                "Experiencia laboral relevante",
+                "Salario ofrecido",
+                "Número de caso de certificación laboral"
+            ],
+  "sections": {
+                "header": "PETICIÓN DE INMIGRANTE PARA TRABAJADOR (EB-3)\nFORMULARIO I-140",
+                "beneficiary_info": "INFORMACIÓN DEL BENEFICIARIO\n\nNombre: {{nombre_completo_del_beneficiario}}\nFecha de Nacimiento: {{fecha_de_nacimiento}}\nPaís de Nacimiento: {{país_de_nacimiento}}\nNacionalidad: {{país_de_nacionalidad}}\nDirección: {{dirección_actual}}",
+                "eb3_category": "CATEGORÍA EB-3\n\nSubcategoría: {{subcategoría_eb3}}",
+                "job_offer": "OFERTA DE TRABAJO\n\nPosición ofrecida: {{posición_ofrecida}}\nEmpleador: {{nombre_del_empleador_peticionario}}\nDirección del empleador: {{dirección_del_empleador}}",
+                "qualifications": "CALIFICACIONES\n\nRequeridas para el puesto: {{calificaciones_requeridas_para_el_puesto}}\nCalificaciones del beneficiario: {{calificaciones_del_beneficiario}}\nExperiencia laboral: {{experiencia_laboral_relevante}}",
+                "labor_certification": "CERTIFICACIÓN LABORAL\n\nSalario ofrecido: {{salario_ofrecido}}\nNúmero de caso: {{número_de_caso_de_certificación_laboral}}",
+                "conclusion": "Con base en las calificaciones y evidencias presentadas, se solicita la aprobación de esta petición EB-3.\n\nFirma: ____________________\nFecha: ____________"
+            }
+}

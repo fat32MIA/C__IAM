@@ -1,0 +1,32 @@
+{
+  "name": "N-400 Solicitud de Naturalización",
+  "description": "Solicitud de naturalización para convertirse en ciudadano estadounidense",
+  "questions": [
+        "Nombre completo del solicitante",
+        "Número A",
+        "Fecha de nacimiento",
+        "País de nacimiento",
+        "Dirección actual",
+        "Fecha de obtención de residencia permanente",
+        "Base de elegibilidad (5 años, 3 años casado con ciudadano, militar)",
+        "Estado civil",
+        "Nombre del cónyuge (si aplica)",
+        "Estatus migratorio del cónyuge",
+        "¿Ha estado fuera de EE.UU. más de 6 meses?",
+        "Detalles de viajes al exterior",
+        "Historial de empleo (últimos 5 años)",
+        "Historial de residencia (últimos 5 años)",
+        "¿Ha sido arrestado alguna vez?",
+        "Detalles de arrestos o condenas (si aplica)",
+        "Organizaciones a las que pertenece"
+    ],
+  "sections": {
+        "header": "SOLICITUD DE NATURALIZACIÓN\nFORMULARIO N-400",
+        "personal_info": "INFORMACIÓN PERSONAL\n\nNombre: {{nombre_completo_del_solicitante}}\nNúmero A: {{número_a}}\nFecha de Nacimiento: {{fecha_de_nacimiento}}\nPaís de Nacimiento: {{país_de_nacimiento}}\nDirección: {{dirección_actual}}\nEstado Civil: {{estado_civil}}",
+        "immigration_info": "INFORMACIÓN MIGRATORIA\n\nFecha de residencia permanente: {{fecha_de_obtención_de_residencia_permanente}}\nBase de elegibilidad: {{base_de_elegibilidad}}\nCónyuge: {{nombre_del_cónyuge}}\nEstatus del cónyuge: {{estatus_migratorio_del_cónyuge}}",
+        "absence_info": "AUSENCIAS DE EE.UU.\n\nAusencias de más de 6 meses: {{¿ha_estado_fuera_de_ee.uu._más_de_6_meses?}}\nDetalles de viajes: {{detalles_de_viajes_al_exterior}}",
+        "residence_employment": "RESIDENCIA Y EMPLEO\n\nHistorial de residencia: {{historial_de_residencia}}\nHistorial de empleo: {{historial_de_empleo}}",
+        "good_moral_character": "BUEN CARÁCTER MORAL\n\nArrestos: {{¿ha_sido_arrestado_alguna_vez?}}\nDetalles: {{detalles_de_arrestos_o_condenas}}\nOrganizaciones: {{organizaciones_a_las_que_pertenece}}",
+        "declaration": "Declaro bajo pena de perjurio que la información proporcionada es verdadera y correcta según mi conocimiento.\n\nFirma del Solicitante: ____________________\nFecha: ____________"
+    }
+}

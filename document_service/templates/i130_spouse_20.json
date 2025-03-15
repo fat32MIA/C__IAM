@@ -1,0 +1,27 @@
+{
+  "name": "I-130 Petición para Cónyuge",
+  "description": "Formulario I-130 para petición de cónyuge",
+  "questions": [
+                "Nombre completo del peticionario",
+                "Número de seguro social del peticionario",
+                "Dirección del peticionario",
+                "Fecha de nacimiento del peticionario",
+                "Lugar de nacimiento del peticionario",
+                "Nombre completo del beneficiario",
+                "Fecha de nacimiento del beneficiario",
+                "País de nacimiento del beneficiario",
+                "Fecha de matrimonio",
+                "Lugar de matrimonio",
+                "¿Ha estado casado anteriormente el peticionario?",
+                "¿Ha estado casado anteriormente el beneficiario?",
+                "Dirección actual del beneficiario",
+                "Número A del beneficiario (si aplica)"
+            ],
+  "sections": {
+                "header": "PETICIÓN PARA FAMILIAR EXTRANJERO\nFORMULARIO I-130",
+                "petitioner_info": "INFORMACIÓN DEL PETICIONARIO\n\nNombre: {{nombre_completo_del_peticionario}}\nSSN: {{número_de_seguro_social_del_peticionario}}\nFecha de Nacimiento: {{fecha_de_nacimiento_del_peticionario}}\nLugar de Nacimiento: {{lugar_de_nacimiento_del_peticionario}}\nDirección: {{dirección_del_peticionario}}",
+                "beneficiary_info": "INFORMACIÓN DEL BENEFICIARIO\n\nNombre: {{nombre_completo_del_beneficiario}}\nFecha de Nacimiento: {{fecha_de_nacimiento_del_beneficiario}}\nPaís de Nacimiento: {{país_de_nacimiento_del_beneficiario}}\nDirección Actual: {{dirección_actual_del_beneficiario}}\nNúmero A (si aplica): {{número_a_del_beneficiario}}",
+                "relationship_info": "INFORMACIÓN DE LA RELACIÓN\n\nFecha de Matrimonio: {{fecha_de_matrimonio}}\nLugar de Matrimonio: {{lugar_de_matrimonio}}\nMatrimonios Previos del Peticionario: {{¿ha_estado_casado_anteriormente_el_peticionario?}}\nMatrimonios Previos del Beneficiario: {{¿ha_estado_casado_anteriormente_el_beneficiario?}}",
+                "declaration": "Declaro bajo pena de perjurio que la información proporcionada es verdadera y correcta según mi conocimiento.\n\nFirma del Peticionario: ____________________\nFecha: ____________"
+            }
+}

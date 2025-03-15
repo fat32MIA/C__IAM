@@ -1,0 +1,30 @@
+{
+  "name": "O-1 Petición para Extranjero de Habilidad Extraordinaria",
+  "description": "Petición para visa O-1 por habilidad extraordinaria",
+  "questions": [
+                "Nombre completo del beneficiario",
+                "Fecha de nacimiento",
+                "País de nacimiento",
+                "País de nacionalidad",
+                "Dirección actual",
+                "Campo de especialización",
+                "Eventos o proyectos específicos",
+                "Fechas de empleo solicitadas",
+                "Premios o reconocimientos recibidos",
+                "Membresías en asociaciones selectas",
+                "Publicaciones o contribuciones al campo",
+                "Evidencia de salario elevado",
+                "Participación como juez del trabajo de otros",
+                "Contribuciones originales significativas",
+                "Nombre del peticionario/empleador",
+                "Itinerario de actividades propuestas"
+            ],
+  "sections": {
+                "header": "PETICIÓN PARA TRABAJADOR NO INMIGRANTE O-1\nFORMULARIO I-129/O",
+                "beneficiary_info": "INFORMACIÓN DEL BENEFICIARIO\n\nNombre: {{nombre_completo_del_beneficiario}}\nFecha de Nacimiento: {{fecha_de_nacimiento}}\nPaís de Nacimiento: {{país_de_nacimiento}}\nNacionalidad: {{país_de_nacionalidad}}\nDirección: {{dirección_actual}}",
+                "petition_details": "DETALLES DE LA PETICIÓN\n\nCampo de especialización: {{campo_de_especialización}}\nEventos/proyectos: {{eventos_o_proyectos_específicos}}\nFechas solicitadas: {{fechas_de_empleo_solicitadas}}\nPeticionario/empleador: {{nombre_del_peticionario/empleador}}",
+                "extraordinary_ability": "EVIDENCIA DE HABILIDAD EXTRAORDINARIA\n\nPremios/reconocimientos: {{premios_o_reconocimientos_recibidos}}\nMembresías: {{membresías_en_asociaciones_selectas}}\nPublicaciones: {{publicaciones_o_contribuciones_al_campo}}\nSalario elevado: {{evidencia_de_salario_elevado}}\nParticipación como juez: {{participación_como_juez_del_trabajo_de_otros}}\nContribuciones originales: {{contribuciones_originales_significativas}}",
+                "itinerary": "ITINERARIO DE ACTIVIDADES\n\n{{itinerario_de_actividades_propuestas}}",
+                "conclusion": "Con base en las calificaciones y evidencias presentadas, se solicita la aprobación de esta petición O-1.\n\nFirma: ____________________\nFecha: ____________"
+            }
+}

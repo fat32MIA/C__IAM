@@ -1,0 +1,30 @@
+{
+  "name": "Declaración de Dificultades Extremas",
+  "description": "Declaración detallada de dificultades extremas para exenciones",
+  "questions": [
+                "Nombre del familiar ciudadano/residente",
+                "Relación con el solicitante",
+                "Edad del familiar",
+                "Condiciones médicas del familiar",
+                "Tratamientos médicos actuales",
+                "Médicos o especialistas que lo atienden",
+                "Situación financiera actual",
+                "Dependencia financiera",
+                "Condiciones en el país de origen",
+                "Idiomas que habla el familiar",
+                "Vínculos familiares en EE.UU.",
+                "Vínculos familiares en el país de origen",
+                "Impacto emocional de la separación",
+                "Impacto en la educación/desarrollo de los hijos"
+            ],
+  "sections": {
+                "header": "DECLARACIÓN DE DIFICULTADES EXTREMAS",
+                "qualifying_relative": "INFORMACIÓN DEL FAMILIAR CALIFICADO\n\nNombre: {{nombre_del_familiar_ciudadano/residente}}\nRelación: {{relación_con_el_solicitante}}\nEdad: {{edad_del_familiar}}",
+                "medical_hardship": "DIFICULTADES MÉDICAS\n\nCondiciones médicas: {{condiciones_médicas_del_familiar}}\nTratamientos actuales: {{tratamientos_médicos_actuales}}\nMédicos/especialistas: {{médicos_o_especialistas_que_lo_atienden}}",
+                "financial_hardship": "DIFICULTADES FINANCIERAS\n\nSituación actual: {{situación_financiera_actual}}\nDependencia financiera: {{dependencia_financiera}}",
+                "country_conditions": "CONDICIONES EN EL PAÍS DE ORIGEN\n\n{{condiciones_en_el_país_de_origen}}\nIdiomas: {{idiomas_que_habla_el_familiar}}",
+                "family_ties": "VÍNCULOS FAMILIARES\n\nEn EE.UU.: {{vínculos_familiares_en_ee.uu.}}\nEn país de origen: {{vínculos_familiares_en_el_país_de_origen}}",
+                "emotional_impact": "IMPACTO EMOCIONAL\n\nSeparación: {{impacto_emocional_de_la_separación}}\nImpacto en hijos/familia: {{impacto_en_la_educación/desarrollo_de_los_hijos}}",
+                "declaration": "Declaro bajo pena de perjurio que la información proporcionada es verdadera y correcta.\n\nFirma: ____________________\nFecha: ____________"
+            }
+}

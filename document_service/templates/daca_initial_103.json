@@ -1,0 +1,27 @@
+{
+  "name": "DACA Solicitud Inicial",
+  "description": "Solicitud inicial de Acción Diferida para los Llegados en la Infancia",
+  "questions": [
+                "Nombre completo del solicitante",
+                "Número A (si aplica)",
+                "Fecha de nacimiento",
+                "País de nacimiento",
+                "Dirección actual",
+                "Fecha de entrada a EE.UU.",
+                "Edad al entrar a EE.UU.",
+                "Prueba de presencia en EE.UU. el 15 de junio de 2012",
+                "Prueba de residencia continua desde el 15 de junio de 2007",
+                "Estatus educativo actual",
+                "Historial educativo",
+                "¿Ha sido condenado por algún delito?",
+                "¿Ha servido en las fuerzas armadas?"
+            ],
+  "sections": {
+                "header": "SOLICITUD DE ACCIÓN DIFERIDA PARA LOS LLEGADOS EN LA INFANCIA (DACA)\nFORMULARIO I-821D",
+                "personal_info": "INFORMACIÓN PERSONAL\n\nNombre: {{nombre_completo_del_solicitante}}\nNúmero A: {{número_a}}\nFecha de Nacimiento: {{fecha_de_nacimiento}}\nPaís de Nacimiento: {{país_de_nacimiento}}\nDirección: {{dirección_actual}}",
+                "immigration_info": "INFORMACIÓN MIGRATORIA\n\nFecha de entrada: {{fecha_de_entrada_a_ee.uu.}}\nEdad al entrar: {{edad_al_entrar_a_ee.uu.}}",
+                "eligibility_evidence": "EVIDENCIA DE ELEGIBILIDAD\n\nPresencia el 15/06/2012: {{prueba_de_presencia_en_ee.uu._el_15_de_junio_de_2012}}\nResidencia continua desde 15/06/2007: {{prueba_de_residencia_continua_desde_el_15_de_junio_de_2007}}\nEstatus educativo: {{estatus_educativo_actual}}\nHistorial educativo: {{historial_educativo}}\nServicio militar: {{¿ha_servido_en_las_fuerzas_armadas?}}",
+                "criminal_history": "HISTORIAL PENAL\n\nCondenas: {{¿ha_sido_condenado_por_algún_delito?}}",
+                "declaration": "Declaro bajo pena de perjurio que la información proporcionada es verdadera y correcta según mi conocimiento.\n\nFirma del Solicitante: ____________________\nFecha: ____________"
+            }
+}

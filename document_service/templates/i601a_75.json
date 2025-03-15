@@ -1,0 +1,29 @@
+{
+  "name": "I-601A Exención Provisional",
+  "description": "Solicitud de exención provisional por presencia ilegal",
+  "questions": [
+                "Nombre completo del solicitante",
+                "Número A (si aplica)",
+                "Fecha de nacimiento",
+                "País de nacimiento",
+                "Dirección actual",
+                "Período de presencia ilegal",
+                "Número de caso de petición familiar aprobada",
+                "Relación con el peticionario",
+                "Cónyuge ciudadano o residente permanente",
+                "Padres ciudadanos o residentes permanentes",
+                "Dificultades extremas que enfrentaría el familiar",
+                "Lazos familiares en EE.UU.",
+                "Condiciones en el país de origen",
+                "Fecha programada de entrevista consular (si se conoce)"
+            ],
+  "sections": {
+                "header": "SOLICITUD DE EXENCIÓN PROVISIONAL\nFORMULARIO I-601A",
+                "personal_info": "INFORMACIÓN PERSONAL\n\nNombre: {{nombre_completo_del_solicitante}}\nNúmero A: {{número_a}}\nFecha de Nacimiento: {{fecha_de_nacimiento}}\nPaís de Nacimiento: {{país_de_nacimiento}}\nDirección: {{dirección_actual}}",
+                "immigration_info": "INFORMACIÓN MIGRATORIA\n\nPeríodo de presencia ilegal: {{período_de_presencia_ilegal}}\nNúmero de caso de petición: {{número_de_caso_de_petición_familiar_aprobada}}\nRelación con peticionario: {{relación_con_el_peticionario}}\nEntrevista consular programada: {{fecha_programada_de_entrevista_consular}}",
+                "qualifying_relatives": "FAMILIARES CALIFICADOS\n\nCónyuge: {{cónyuge_ciudadano_o_residente_permanente}}\nPadres: {{padres_ciudadanos_o_residentes_permanentes}}",
+                "extreme_hardship": "DIFICULTADES EXTREMAS\n\n{{dificultades_extremas_que_enfrentaría_el_familiar}}",
+                "additional_factors": "FACTORES ADICIONALES\n\nLazos familiares en EE.UU.: {{lazos_familiares_en_ee.uu.}}\nCondiciones en país de origen: {{condiciones_en_el_país_de_origen}}",
+                "conclusion": "Por las razones anteriores, solicito respetuosamente que se apruebe esta solicitud de exención provisional.\n\nFirma del Solicitante: ____________________\nFecha: ____________"
+            }
+}

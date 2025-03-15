@@ -1,0 +1,29 @@
+{
+  "name": "I-140 Petición EB-2",
+  "description": "Petición de inmigrante para profesional con título avanzado o habilidad excepcional (EB-2)",
+  "questions": [
+                "Nombre completo del beneficiario",
+                "Fecha de nacimiento",
+                "País de nacimiento",
+                "País de nacionalidad",
+                "Dirección actual",
+                "Subcategoría EB-2 (título avanzado, habilidad excepcional, NIW)",
+                "Posición ofrecida",
+                "Empleador peticionario (si aplica)",
+                "Título académico",
+                "Universidad/institución",
+                "Años de experiencia profesional",
+                "Salario ofrecido",
+                "Número de caso de certificación laboral (si aplica)",
+                "Justificación para exención de certificación laboral (si NIW)"
+            ],
+  "sections": {
+                "header": "PETICIÓN DE INMIGRANTE PARA PROFESIONAL (EB-2)\nFORMULARIO I-140",
+                "beneficiary_info": "INFORMACIÓN DEL BENEFICIARIO\n\nNombre: {{nombre_completo_del_beneficiario}}\nFecha de Nacimiento: {{fecha_de_nacimiento}}\nPaís de Nacimiento: {{país_de_nacimiento}}\nNacionalidad: {{país_de_nacionalidad}}\nDirección: {{dirección_actual}}",
+                "eb2_category": "CATEGORÍA EB-2\n\nSubcategoría: {{subcategoría_eb2}}\nPosición ofrecida: {{posición_ofrecida}}\nEmpleador (si aplica): {{empleador_peticionario}}",
+                "qualifications": "CALIFICACIONES\n\nTítulo académico: {{título_académico}}\nUniversidad: {{universidad/institución}}\nExperiencia profesional: {{años_de_experiencia_profesional}}",
+                "labor_certification": "CERTIFICACIÓN LABORAL\n\nSalario ofrecido: {{salario_ofrecido}}\nNúmero de caso: {{número_de_caso_de_certificación_laboral}}",
+                "niw_justification": "JUSTIFICACIÓN PARA NIW (si aplica)\n\n{{justificación_para_exención_de_certificación_laboral}}",
+                "conclusion": "Con base en las calificaciones y evidencias presentadas, se solicita la aprobación de esta petición EB-2.\n\nFirma: ____________________\nFecha: ____________"
+            }
+}

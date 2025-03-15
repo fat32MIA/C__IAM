@@ -1,0 +1,23 @@
+{
+  "name": "I-130 Petición para Hermano/a",
+  "description": "Formulario I-130 para petición de hermano o hermana",
+  "questions": [
+                "Nombre completo del peticionario ciudadano",
+                "Número de seguro social del peticionario",
+                "Dirección del peticionario",
+                "Fecha de nacimiento del peticionario",
+                "Lugar de nacimiento del peticionario",
+                "Nombre completo del hermano/a beneficiario",
+                "Fecha de nacimiento del hermano/a",
+                "País de nacimiento del hermano/a",
+                "Dirección actual del hermano/a",
+                "Nombres de los padres",
+                "Número A del hermano/a (si aplica)"
+            ],
+  "sections": {
+                "header": "PETICIÓN PARA FAMILIAR EXTRANJERO\nFORMULARIO I-130 (HERMANO/A)",
+                "petitioner_info": "INFORMACIÓN DEL PETICIONARIO\n\nNombre: {{nombre_completo_del_peticionario_ciudadano}}\nSSN: {{número_de_seguro_social_del_peticionario}}\nFecha de Nacimiento: {{fecha_de_nacimiento_del_peticionario}}\nLugar de Nacimiento: {{lugar_de_nacimiento_del_peticionario}}\nDirección: {{dirección_del_peticionario}}",
+                "beneficiary_info": "INFORMACIÓN DEL HERMANO/A BENEFICIARIO\n\nNombre: {{nombre_completo_del_hermano/a_beneficiario}}\nFecha de Nacimiento: {{fecha_de_nacimiento_del_hermano/a}}\nPaís de Nacimiento: {{país_de_nacimiento_del_hermano/a}}\nDirección Actual: {{dirección_actual_del_hermano/a}}\nNombres de los padres: {{nombres_de_los_padres}}\nNúmero A (si aplica): {{número_a_del_hermano/a}}",
+                "declaration": "Declaro bajo pena de perjurio que la información proporcionada es verdadera y correcta según mi conocimiento.\n\nFirma del Peticionario: ____________________\nFecha: ____________"
+            }
+}

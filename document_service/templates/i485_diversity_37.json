@@ -1,0 +1,25 @@
+{
+  "name": "I-485 Ajuste de Estatus Lotería de Visas",
+  "description": "Formulario I-485 para ajuste de estatus basado en lotería de visas",
+  "questions": [
+                "Nombre completo del solicitante",
+                "Número A (si aplica)",
+                "Fecha de nacimiento",
+                "País de nacimiento",
+                "Dirección actual",
+                "Último ingreso a EE.UU. (fecha)",
+                "Estatus actual",
+                "Número de caso de lotería de visas (DV)",
+                "Año fiscal de la lotería",
+                "Estado civil",
+                "Información de empleo actual",
+                "¿Ha sido arrestado alguna vez?"
+            ],
+  "sections": {
+                "header": "SOLICITUD DE REGISTRO DE RESIDENCIA PERMANENTE\nFORMULARIO I-485 (LOTERÍA DE VISAS)",
+                "personal_info": "INFORMACIÓN PERSONAL\n\nNombre: {{nombre_completo_del_solicitante}}\nNúmero A: {{número_a}}\nFecha de Nacimiento: {{fecha_de_nacimiento}}\nPaís de Nacimiento: {{país_de_nacimiento}}\nDirección: {{dirección_actual}}\nEstado Civil: {{estado_civil}}",
+                "immigration_info": "INFORMACIÓN MIGRATORIA\n\nÚltimo ingreso a EE.UU.: {{último_ingreso_a_ee.uu.}}\nEstatus actual: {{estatus_actual}}\nNúmero de caso DV: {{número_de_caso_de_lotería_de_visas}}\nAño fiscal: {{año_fiscal_de_la_lotería}}",
+                "additional_info": "INFORMACIÓN ADICIONAL\n\nEmpleo actual: {{información_de_empleo_actual}}\nArrestos previos: {{¿ha_sido_arrestado_alguna_vez?}}",
+                "declaration": "Declaro bajo pena de perjurio que la información proporcionada es verdadera y correcta según mi conocimiento.\n\nFirma del Solicitante: ____________________\nFecha: ____________"
+            }
+}
